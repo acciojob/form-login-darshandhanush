@@ -1,5 +1,6 @@
 function getFormvalue(event) {
 	event.preventDefault();
+	var form= document.getElementById('form')
    	var name=document.getElementById('fname').value;
 	var last=document.getElementById('lname').value;
 
